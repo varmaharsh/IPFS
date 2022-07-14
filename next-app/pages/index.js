@@ -4,8 +4,9 @@ import React, { useEffect, useRef, useState } from "react";
 import Web3Modal from "web3modal";
 import styles from "../styles/Home.module.css";
 
-export const abi = "0x6A89bF65475e5D5F318e896bdFe6CC10C9A080dE";
-export const NFT_CONTRACT_ADDRESS = [
+export const NFT_CONTRACT_ADDRESS =
+  "0x6A89bF65475e5D5F318e896bdFe6CC10C9A080dE";
+export const abi = [
   {
     inputs: [
       {
